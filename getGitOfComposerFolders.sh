@@ -16,7 +16,7 @@ do
 
 		# mkdir $gitDestinationfolderName
 
-    	cp $gitOriginfolderName/.git $gitDestinationfolderName -R
+    		cp $gitOriginfolderName/.git $gitDestinationfolderName -R
 
 		rm -Rf $gitOriginfolderName
 
